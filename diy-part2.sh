@@ -21,3 +21,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 # 替换默认主题为 luci-theme-argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
 #make menuconfig时记得勾选LuCI ---> Applications ---> luci-app-argon-config
+
+#######安装smartdns（必选）########
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/pymumu/smartdns.git package/smartdns
