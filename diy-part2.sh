@@ -30,4 +30,4 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-a
 #git clone https://github.com/pymumu/smartdns.git package/smartdns
 
 ########### 设置密码为空（可选） ###########
-sed-i's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' openwrt/package/lean/default-settings/files/zzz-default-settings
+sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' openwrt/package/lean/default-settings/files/zzz-default-settings
