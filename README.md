@@ -8,6 +8,7 @@
 
 **特色插件**：
   - [x] 添加jerrykuku第三方argon主题 并设置为默认
+  - [x] 添加 darkmatter主题
   - [x] 添加科学上网插件 passwall
   - [x] 添加DNS加强插件  smartdns
   
