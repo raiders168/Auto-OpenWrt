@@ -2,9 +2,6 @@
 
 # 云编译 OpenWrt 固件
 
-云编译 OpenWrt 固件
-
-
 ## 项目说明
 
 -本项目使用 Github Actions 下载 Lean 的 Openwrt 源码仓库，进行云编译。
