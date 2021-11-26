@@ -46,9 +46,7 @@
   - [x] luci-app-wol   #WOL网络唤醒
   - [x] luci-app-zerotier  #ZeroTier内网穿透
 
-
-
-![OpenWRT.png](https://pan.baidu.com/disk/home?_at_=1637914972156#/all?path=%2F)
+**系统截图**：
 ![openwrt](https://user-images.githubusercontent.com/59355325/143550546-b2f80796-577e-431c-b4e3-8e18408512c0.png)
 
 ## 感谢 ❤️
