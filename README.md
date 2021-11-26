@@ -13,7 +13,7 @@
   - [x] 添加科学上网插件 passwall
   - [x] 添加本地DNS服务器插件  smartdns
   
-**集成插件**：（**打勾项**默认**编译**入固件；**未打勾项**默认**不编译**入固件。）
+**集成插件**：（**打勾项**默认**编译**入固件、**未打勾项**默认**不编译**入固件）
   - [x] luci-app-accesscontrol  #访问时间控制
   - [x] luci-app-adbyby-plus  #广告屏蔽大师Plus +
   - [x] luci-app-arpbind  #IP/MAC绑定
