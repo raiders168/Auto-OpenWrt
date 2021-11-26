@@ -4,57 +4,31 @@
 
 ## 项目说明
 
-- 本项目使用 Github Actions 下载 Lean 的 Openwrt 源码仓库，进行云编译。
-- 本项目使用定时编译（北京时间每周日下午4点开始自动运行编译）及触发编译（更新script.sh后可开始编译）两种方式。
-- 本项目编译固件适配斐讯 N1 盒子，如需刷机，另需使用打包工具生成刷机固件。
-- 本项目相对源码默认设置做了如下更改：
-- 增强项：（打勾项默认编译入固件；未打勾项默认不编译入固件。）
+**增强项**：（**打勾项**默认**编译**入固件；**未打勾项**默认**不编译**入固件。）
+  - [x] 修改架构适配斐讯 N1 盒子
+  - [x] 添加 Perl依赖
+  - [x] 修改登录IP为 192.168.2.2，网关、DNS为 192.168.2.1，关闭DHCP服务
+  - [x] 添加主题 opentomacat 并设置为默认
+  - [x] 添加第三方插件 luci-app-openclash
+  - [x] 添加无线功能（待测试）
+  - [x] 启用 Docker （系统——启动项：启动）
+  - [x] 添加第三方插件 luci-app-vssr
 
- 修改架构适配斐讯 N1 盒子
- 添加 Perl依赖
- 修改登录IP为 192.168.2.2，网关、DNS为 192.168.2.1，关闭DHCP服务
- 添加主题 opentomacat 并设置为默认
- 添加第三方插件 luci-app-openclash
- 添加无线功能（待测试）
- 启用 Docker （系统——启动项：启动）
- 添加第三方插件 luci-app-vssr
-精简项：
+**精简项**：
+  - [x] luci-app-accesscontrol
+  - [x] luci-app-adbyby-plus
+  - [x] luci-app-arpbind
+  - [x] luci-app-ddns
+  - [x] luci-app-ipsec-vpnd
+  - [x] luci-app-rclone
+  - [x] luci-app-upnp
+  - [x] luci-app-uugamebooster
+  - [x] luci-app-vsftpd
+  - [x] luci-app-xlnetacc
+  - [x] luci-app-zerotier
 
- luci-app-accesscontrol
- luci-app-adbyby-plus
- luci-app-arpbind
- luci-app-ddns
- luci-app-ipsec-vpnd
- luci-app-rclone
- luci-app-upnp
- luci-app-uugamebooster
- luci-app-vsftpd
- luci-app-xlnetacc
- luci-app-zerotier
+![N1_OpenWRT.png](https://i.loli.net/2021/08/27/u4318mKdQlYtek2.png)
 
-
-
-## Tips
-
-- 
-
-## Credits
-
-- [Microsoft Azure](https://azure.microsoft.com)
-- [GitHub Actions](https://github.com/features/actions)
-- [OpenWrt](https://github.com/openwrt/openwrt)
-- [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
-- [tmate](https://github.com/tmate-io/tmate)
-- [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate)
-- [csexton/debugger-action](https://github.com/csexton/debugger-action)
-- [Cowtransfer](https://cowtransfer.com)
-- [WeTransfer](https://wetransfer.com/)
-- [Mikubill/transfer](https://github.com/Mikubill/transfer)
-- [softprops/action-gh-release](https://github.com/softprops/action-gh-release)
-- [ActionsRML/delete-workflow-runs](https://github.com/ActionsRML/delete-workflow-runs)
-- [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
-- [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
-
-## License
-
-[MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
+## 感谢 ❤️
+- 源码来源： Lean 的 Openwrt 源码仓库 https://github.com/coolsnowwolf/lede
+- 脚本来源： P3TERX 的 使用 GitHub Actions 云编译 OpenWrt https://github.com/P3TERX/Actions-OpenWrt
