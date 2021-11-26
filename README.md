@@ -9,18 +9,40 @@
   - [x] 添加科学上网插件 passwall
   - [x] 添加DNS加强插件  smartdns
   
-**集成项**：
+**集成插件**：
   - [x] luci-app-accesscontrol  #访问时间控制
-  - [x] luci-app-adbyby-plus    #广告屏蔽大师Plus +
-  - [x] luci-app-arpbind        #IP/MAC绑定
-  - [x] luci-app-ddns
-  - [x] luci-app-ipsec-vpnd
-  - [x] luci-app-rclone
-  - [x] luci-app-upnp
-  - [x] luci-app-uugamebooster
-  - [x] luci-app-vsftpd
-  - [x] luci-app-xlnetacc
-  - [x] luci-app-zerotier
+  - [x] luci-app-adbyby-plus  #广告屏蔽大师Plus +
+  - [x] luci-app-arpbind  #IP/MAC绑定
+  - [x] luci-app-autoreboot  #支持计划重启
+  - [x] luci-app-ddns   #动态域名 DNS（集成阿里DDNS客户端）
+  - [x] luci-app-diskman   #磁盘管理工具
+  - [x] luci-app-filetransfer  #文件传输（可web安装ipk包）
+  - [x] luci-app-firewall   #添加防火墙
+  - [x] luci-app-frpc   #内网穿透Frp客户端
+  - [x] luci-app-frps   #内网穿透Frp服务端
+  - [x] luci-app-hd-idle  #硬盘休眠
+  - [x] luci-app-ipsec-vpnd  #VPN服务器 IPSec
+  - [x] luci-app-mwan3   #MWAN3负载均衡
+  - [x] luci-app-mwan3helper   #MWAN3分流助手
+  - [x] luci-app-netdata  #Netdata实时监控（图形化）
+  - [x] luci-app-nlbwmon   #网络带宽监视器
+  - [x] luci-app-passwall  #科学上网（Li大内插件）
+  - [x] luci-app-ramfree  #释放内存
+  - [x] luci-app-samba   #网络共享（Samba）
+  - [x] luci-app-smartdns  #SmartDNS本地服务器
+  - [x] luci-app-softethervpn  #SoftEther VPN服务器  NAT穿透
+  - [x] luci-app-syncdial  #多拨虚拟网卡（原macvlan）
+  - [x] luci-app-ttyd   #网页终端命令行
+  - [x] luci-app-turboacc   #Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT) 
+  - [x] luci-app-unblockmusic  #解锁网易云灰色歌曲
+  - [x] luci-app-upnp   #通用即插即用UPnP（端口自动转发）
+  - [x] luci-app-usb-printer  #USB 打印服务器
+  - [x] luci-app-vlmcsd  #KMS服务器设置
+  - [x] luci-app-vsftpd  #FTP服务器
+  - [x] luci-app-wol   #WOL网络唤醒
+  - [x] luci-app-zerotier  #ZeroTier内网穿透
+
+
 
 ![N1_OpenWRT.png](https://i.loli.net/2021/08/27/u4318mKdQlYtek2.png)
 
