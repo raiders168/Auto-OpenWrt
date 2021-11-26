@@ -9,9 +9,9 @@
   - [x] 添加科学上网插件 passwall
   - [x] 添加DNS加强插件  smartdns
   
-**精简项**：
-  - [x] luci-app-accesscontrol
-  - [x] luci-app-adbyby-plus
+**集成项**：
+  - [x] luci-app-accesscontrol  #访问时间控制
+  - [x] luci-app-adbyby-plus    #广告屏蔽大师Plus +
   - [x] luci-app-arpbind
   - [x] luci-app-ddns
   - [x] luci-app-ipsec-vpnd
