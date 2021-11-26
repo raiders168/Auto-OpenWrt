@@ -7,10 +7,10 @@
 - 本项目相对源码默认设置做了如下更改：
 
 **特色插件**：
-  - [x] 添加jerrykuku第三方argon主题 并设置为默认
+  - [x] 添加 jerrykuku第三方argon主题 并设置为默认
   - [x] 添加 darkmatter主题
   - [x] 添加科学上网插件 passwall
-  - [x] 添加DNS加强插件  smartdns
+  - [x] 添加本地DNS服务器插件  smartdns
   
 **集成插件**：（**打勾项**默认**编译**入固件；**未打勾项**默认**不编译**入固件。）
   - [x] luci-app-accesscontrol  #访问时间控制
