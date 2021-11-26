@@ -1,6 +1,6 @@
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
-# 云编译 N1 OpenWrt 固件
+# 云编译 OpenWrt 固件
 
 云编译 OpenWrt 固件
 
