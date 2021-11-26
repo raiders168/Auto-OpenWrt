@@ -3,15 +3,12 @@
 ## 项目说明
 
 **增强项**：（**打勾项**默认**编译**入固件；**未打勾项**默认**不编译**入固件。）
-  - [x] 修改架构适配斐讯 N1 盒子
-  - [x] 添加 Perl依赖
-  - [x] 修改登录IP为 192.168.2.2，网关、DNS为 192.168.2.1，关闭DHCP服务
-  - [x] 添加主题 opentomacat 并设置为默认
-  - [x] 添加第三方插件 luci-app-openclash
-  - [x] 添加无线功能（待测试）
-  - [x] 启用 Docker （系统——启动项：启动）
-  - [x] 添加第三方插件 luci-app-vssr
-
+  - [x] 架构适配x86_64
+   - [x]后台地址：192.168.1.1 管理员：root  初始密码：空
+  - [x] 添加jerrykuku第三方argon主题 并设置为默认
+  - [x] 添加科学上网插件 passwall
+  - [x] 添加DNS加强插件  smartdns
+  
 **精简项**：
   - [x] luci-app-accesscontrol
   - [x] luci-app-adbyby-plus
