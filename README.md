@@ -1,14 +1,14 @@
 # 云编译 OpenWrt 固件
 
 
-**增强项**：（**打勾项**默认**编译**入固件；**未打勾项**默认**不编译**入固件。）
+** 固件说明**：
   - [x] 架构适配x86_64
   - [x] 后台地址：192.168.1.1 管理员：root  初始密码：空
   - [x] 添加jerrykuku第三方argon主题 并设置为默认
   - [x] 添加科学上网插件 passwall
   - [x] 添加DNS加强插件  smartdns
   
-**集成插件**：
+**集成插件**：（**打勾项**默认**编译**入固件；**未打勾项**默认**不编译**入固件。）
   - [x] luci-app-accesscontrol  #访问时间控制
   - [x] luci-app-adbyby-plus  #广告屏蔽大师Plus +
   - [x] luci-app-arpbind  #IP/MAC绑定
