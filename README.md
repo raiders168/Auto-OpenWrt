@@ -12,7 +12,7 @@
 **集成项**：
   - [x] luci-app-accesscontrol  #访问时间控制
   - [x] luci-app-adbyby-plus    #广告屏蔽大师Plus +
-  - [x] luci-app-arpbind
+  - [x] luci-app-arpbind        #IP/MAC绑定
   - [x] luci-app-ddns
   - [x] luci-app-ipsec-vpnd
   - [x] luci-app-rclone
