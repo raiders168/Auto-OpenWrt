@@ -48,7 +48,8 @@
   - [x] luci-app-zerotier  #ZeroTier内网穿透
 
 **系统截图**：
-![openwrt](https://user-images.githubusercontent.com/59355325/143550546-b2f80796-577e-431c-b4e3-8e18408512c0.png)
+
+<img width="805" alt="openwrt" src="https://user-images.githubusercontent.com/59355325/143573616-be0eb893-1314-49f6-b634-72d57dd5b09e.png">
 
 ## 感谢 ❤️
 - 源码来源： Lean 的 Openwrt 源码仓库 https://github.com/coolsnowwolf/lede
