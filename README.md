@@ -44,7 +44,7 @@
 
 
 
-![N1_OpenWRT.png](https://i.loli.net/2021/08/27/u4318mKdQlYtek2.png)
+![N1_OpenWRT.png]()
 
 ## 感谢 ❤️
 - 源码来源： Lean 的 Openwrt 源码仓库 https://github.com/coolsnowwolf/lede
