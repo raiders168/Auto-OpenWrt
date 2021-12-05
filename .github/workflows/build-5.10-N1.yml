@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build R2S OpenWrt 5.10
+name: Build N1 OpenWrt 5.10
 
 on:
   repository_dispatch:
