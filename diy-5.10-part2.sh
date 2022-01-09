@@ -32,5 +32,3 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 ########### 安装smartdns（必选）###########
 #git clone https://github.com/pymumu/smartdns.git package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
-
-
