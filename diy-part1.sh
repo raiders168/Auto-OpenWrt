@@ -24,6 +24,5 @@
 ####### 科学上网插件 #######
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-
 ####### darkmatter主题 #######
 echo 'src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git' >>feeds.conf.default
