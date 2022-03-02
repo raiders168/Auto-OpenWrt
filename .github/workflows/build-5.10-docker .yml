@@ -59,7 +59,15 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-    - name: Load custom feeds
+        
+     - name: luci-theme-argon install
+      run: |
+       cd openwrt
+       cd package/lean  
+       rm -rf luci-theme-argon  
+       git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git 
+       
+     - name: Load custom feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
