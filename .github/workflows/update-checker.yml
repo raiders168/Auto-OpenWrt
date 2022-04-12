@@ -14,11 +14,15 @@ name: Update Checker
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
+  
+  REPO_URL_PassWall: https://github.com/xiaorouji/openwrt-passwall
+  REPO_BRANCH_PassWall: packages
+  REPO_PATH_PassWall : "openwrt-passwall"
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: 0 */18 * * *
+  schedule:
+    - cron: 0 */1 * * *
 
 jobs:
   check:
