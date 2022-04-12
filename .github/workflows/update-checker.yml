@@ -16,9 +16,7 @@ env:
   REPO_BRANCH_Lede: master
   REPO_PATH_Lede : "lede"
   
-  REPO_URL_HelloWorld: https://github.com/fw876/helloworld
-  REPO_BRANCH_HelloWorld: master
-  REPO_PATH_HelloWorld : "helloworld"
+ 
 
   REPO_URL_PassWall: https://github.com/xiaorouji/openwrt-passwall
   REPO_BRANCH_PassWall: packages
@@ -45,11 +43,7 @@ jobs:
         echo "::set-output name=commitHash_Lede::$(git rev-parse HEAD)"
         cd
 
-        git clone --depth 1 $REPO_URL_HelloWorld -b $REPO_BRANCH_HelloWorld $REPO_PATH_HelloWorld 
-        cd $REPO_PATH_HelloWorld
-        echo "::set-output name=commitHash_HelloWorld::$(git rev-parse HEAD)"
-        cd
-
+        
         git clone --depth 1 $REPO_URL_PassWall -b $REPO_BRANCH_PassWall $REPO_PATH_PassWall
         cd $REPO_PATH_PassWall
         echo "::set-output name=commitHash_PassWall::$(git rev-parse HEAD)"
@@ -59,11 +53,11 @@ jobs:
       id: combHeader
       run: |
         echo "commitHash_Lede: ${{ steps.getHash.outputs.commitHash_Lede }}"
-        echo "commitHash_HelloWorld: ${{ steps.getHash.outputs.commitHash_HelloWorld }}"
+       
         echo "commitHash_PassWall: ${{ steps.getHash.outputs.commitHash_PassWall }}"
         echo "::set-output name=commitHash_All::\
           ${{steps.getHash.outputs.commitHash_Lede}}\
-          ${{steps.getHash.outputs.commitHash_HelloWorld}}\
+          
           ${{steps.getHash.outputs.commitHash_PassWall}}"
 
     - name: Compare Commit Hash
@@ -78,7 +72,7 @@ jobs:
       if: steps.cacheHash.outputs.cache-hit != 'true'
       run: |
         echo ${{ steps.getHash.outputs.commitHash_Lede }} | tee .commitHash_Lede
-        echo ${{ steps.getHash.outputs.commitHash_HelloWorld }} | tee .commitHash_HelloWorld
+        
         echo ${{ steps.getHash.outputs.commitHash_PassWall }} | tee .commitHash_PassWall
         echo ${{ steps.combHeader.outputs.commitHash_All }} | tee .commitHash_All   
         
