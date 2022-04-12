@@ -14,6 +14,7 @@ name: Update Checker
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
+  REPO_PATH_Lede : "lede"
   
   REPO_URL_PassWall: https://github.com/xiaorouji/openwrt-passwall
   REPO_BRANCH_PassWall: packages
