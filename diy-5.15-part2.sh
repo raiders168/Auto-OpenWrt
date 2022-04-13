@@ -31,6 +31,7 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 
 ########### 安装smartdns（必选）###########
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
-# git clone https://github.com/pymumu/smartdns.git package/smartdns
+git clone -b lede https://github.com/pymumu/smartdns.git package/smartdns
+
 
 
