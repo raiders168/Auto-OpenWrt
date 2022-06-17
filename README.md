@@ -43,6 +43,7 @@
   - [x] luci-app-usb-printer  #USB 打印服务器
   - [x] luci-app-vlmcsd  #KMS服务器设置
   - [x] luci-app-vsftpd  #FTP服务器
+  - [x] luci-app-wireguard  #VPN服务器
   - [x] luci-app-wol   #WOL网络唤醒
   - [x] luci-app-zerotier  #ZeroTier内网穿透
 
