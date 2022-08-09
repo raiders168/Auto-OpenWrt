@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build-openclash-OpenWrt 5.18
+name: Build-openclash-OpenWrt 5.19
 
 on:
   repository_dispatch:
@@ -25,7 +25,7 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86_64_openclash.config
   DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-5.18-part2.sh
+  DIY_P2_SH: diy-5.19-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
