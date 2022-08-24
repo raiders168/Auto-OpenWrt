@@ -35,5 +35,6 @@ sed -i 's/5a2559f0648198c290bb8839b9f6a0adab8ebcdc/96d3deb595eae4f849cb2a51c69a9
 sed -i 's/^PKG_MIRROR_HASH/#&/' feeds/packages/net/smartdns/Makefile
 
 ########### 安装smartdns（必选）###########
-#git clone https://github.com/pymumu/smartdns.git package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+# git clone https://github.com/pymumu/smartdns.git package/smartdns
+
