@@ -30,6 +30,8 @@
   - [x] luci-app-mwan3helper   #MWAN3分流助手
   - [x] luci-app-netdata  #Netdata实时监控（图形化）
   - [x] luci-app-nlbwmon   #网络带宽监视器
+  - [x] luci-app-openvpn   # VPN客户端
+  - [x] luci-app-openvpn server  # VPN服务器
   - [x] luci-app-passwall  #科学上网（Li大内插件）
   - [x] luci-app-ramfree  #释放内存
   - [x] luci-app-samba   #网络共享（Samba）
