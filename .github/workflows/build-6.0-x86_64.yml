@@ -67,7 +67,7 @@ jobs:
        rm -rf luci-theme-argon  
        git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
        
-     - name: luci-app-argon-config install
+    - name: luci-app-argon-config install
       run: |
        cd openwrt
        cd package/lean  
