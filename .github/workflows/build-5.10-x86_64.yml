@@ -68,6 +68,13 @@ jobs:
        rm -rf luci-theme-argon  
        git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
      
+    - name: luci-app-argon-config install
+      run: |
+       cd openwrt
+       cd package/lean  
+       git clone https://github.com/jerrykuku/luci-app-argon-config.git
+       
+     
     - name: Load custom feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
