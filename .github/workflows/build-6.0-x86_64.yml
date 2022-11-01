@@ -73,6 +73,11 @@ jobs:
        cd package/lean  
        git clone https://github.com/jerrykuku/luci-app-argon-config.git
        
+    - name: aliyundrive-webdav
+      run: |
+        cd openwrt/package 
+        git clone https://github.com/messense/aliyundrive-webdav.git
+       
     - name: Load custom feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
