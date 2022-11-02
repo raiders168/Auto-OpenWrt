@@ -18,6 +18,7 @@
   - [x] luci-app-adbyby-plus  #广告屏蔽大师Plus +
   - [x] luci-app-arpbind  #IP/MAC绑定
   - [x] luci-app-autoreboot  #支持计划重启
+  - [x] luci-app-aliyundrive-webdav  #阿里云盘WebDAV
   - [x] luci-app-ddns   #动态域名 DNS（集成阿里DDNS客户端）
   - [x] luci-app-diskman   #磁盘管理工具
   - [x] luci-app-filetransfer  #文件传输（可web安装ipk包）
