@@ -86,9 +86,9 @@ jobs:
         git branch --set-upstream-to=origin/master 
         
     - name: luci-app-adguardhome
-     run: |
-      cd openwrt/package 
-      git clone https://github.com/kongfl888/luci-app-adguardhome.git
+      run: |
+       cd openwrt/package 
+       git clone https://github.com/kongfl888/luci-app-adguardhome.git
             
     - name: Load custom feeds
       run: |
