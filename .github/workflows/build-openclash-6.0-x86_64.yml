@@ -89,6 +89,13 @@ jobs:
       run: |
        cd openwrt/package 
        git clone https://github.com/kongfl888/luci-app-adguardhome.git
+       
+    - name: luci-app-mosdns
+      run: |
+       cd openwrt/package/mosdns 
+       git clone https://github.com/sbwml/luci-app-mosdns.git
+       cd openwrt/package/geodata
+       git clone https://github.com/sbwml/v2ray-geodata.git
             
     - name: Load custom feeds
       run: |
