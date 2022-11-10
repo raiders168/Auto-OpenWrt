@@ -92,9 +92,8 @@ jobs:
        
     - name: luci-app-mosdns
       run: |
-       cd openwrt/package/mosdns 
+       cd openwrt/package
        git clone https://github.com/sbwml/luci-app-mosdns.git
-       cd openwrt/package/geodata
        git clone https://github.com/sbwml/v2ray-geodata.git
             
     - name: Load custom feeds
