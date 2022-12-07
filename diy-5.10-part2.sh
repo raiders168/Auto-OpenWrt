@@ -30,7 +30,7 @@ sed -i 's/KERNEL_PATCHVER:=5.15/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefi
 # make menuconfig时记得勾选LuCI ---> Applications ---> luci-app-argon-config
 
 ########### 更新lean的内置的smartdns版本 ###########
-sed -i 's/1.2022.37/1.2022.39/g' feeds/packages/net/smartdns/Makefile
+sed -i 's/1.2022.38/1.2022.39/g' feeds/packages/net/smartdns/Makefile
 sed -i 's/5a2559f0648198c290bb8839b9f6a0adab8ebcdc/f2593b62aabcb0f089a7bef523f85f552229d053/g' feeds/packages/net/smartdns/Makefile
 sed -i 's/^PKG_MIRROR_HASH/#&/' feeds/packages/net/smartdns/Makefile
 
