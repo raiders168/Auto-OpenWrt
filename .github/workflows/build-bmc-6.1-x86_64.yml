@@ -23,9 +23,9 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: x86_64_openclash.config
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-6.1-part2.sh
+  CONFIG_FILE: x86_64_bmc.config
+  DIY_P1_SH: diy-bmc-part1.sh
+  DIY_P2_SH: diy-6.1-bmc-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
@@ -73,29 +73,7 @@ jobs:
        cd package/lean  
        git clone https://github.com/jerrykuku/luci-app-argon-config.git
        
-    - name: luci-app-openclash install
-      run: |
-        cd openwrt
-        mkdir package/luci-app-openclash
-        cd package/luci-app-openclash
-        git init
-        git remote add -f origin https://github.com/vernesong/OpenClash.git
-        git config core.sparsecheckout true
-        echo "luci-app-openclash" >> .git/info/sparse-checkout
-        git pull --depth 1 origin master
-        git branch --set-upstream-to=origin/master 
-        
-    - name: luci-app-adguardhome
-      run: |
-       cd openwrt/package 
-       git clone https://github.com/kongfl888/luci-app-adguardhome.git
-       
-    - name: luci-app-mosdns
-      run: |
-       cd openwrt/package
-       git clone https://github.com/sbwml/luci-app-mosdns.git
-       git clone https://github.com/sbwml/v2ray-geodata.git
-            
+                
     - name: Load custom feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
