@@ -10,6 +10,7 @@
 
 **特色插件**：
   - [x] 添加 jerrykuku第三方argon主题 并设置为默认
+  - [x] 添加 jerrykuku第三方argon主题 管理设置
   - [x] 添加科学上网插件 passwall
   - [x] 添加本地DNS服务器插件 smartdns
   
